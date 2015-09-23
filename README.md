@@ -15,11 +15,18 @@ cd .atom && bin/update-packages
 
 ## Packages
 ### How to install a new package
-#### Via the command line
+#### At the command prompt
 
 1. Install new-package:   
 `~/.atom/bin/install-package new-package`  
-2. Commit the change to packages.txt
+2. Change to packages.txt
+
+
+### How to upgrade packages
+#### At the command prompt
+1. Run:  
+`~/.atom/bin/update-packages`  
+2. Change to package.txt
 
 ## Key Bindings
 
