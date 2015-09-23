@@ -62,9 +62,9 @@
   "tree-view":
     hideIgnoredNames: true
   "atom-beautify": {}
-".js.regexp.source":
+".python.text.traceback":
   editor:
     tabLength: 4
-".python.text.traceback":
+".js.regexp.source":
   editor:
     tabLength: 4
