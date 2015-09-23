@@ -1,0 +1,70 @@
+"*":
+  editor:
+    preferredLineLength: 100
+    fontFamily: "Ricty Regular"
+    showInvisibles: true
+    showIndentGuide: true
+    invisibles: {}
+    fontSize: 21
+  linter:
+    ignoredLinterErrors: [
+      "rubocop"
+    ]
+  "exception-reporting":
+    userId: "fc4760d0-597d-df98-4b64-e02bfcc8533a"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "atom-color-highlight"
+      "recent-files"
+      "syntax-settings"
+    ]
+  "linter-rubocop":
+    executablePath: "/Users/kurt/.rbenv/shims/rubocop"
+  "linter-flake8":
+    executablePath: "/Users/kurt/.pyenv/shims/flake8"
+  "linter-pyflakes":
+    executablePath: "/Users/kurt/.pyenv/shims/pyflakes"
+  pep8:
+    PEP8Path: "/Users/kurt/.pyenv/shims/pep8"
+    ignoreErrors: []
+  "linter-pep8":
+    pep8ExecutablePath: "/Users/kurt/.pyenv/shims/pep8"
+  "syntax-settings":
+    source:
+      ruby:
+        editorSettings:
+          tabLength: 2
+        editorViewSettings:
+          showInvisibles: true
+          softWrap: false
+          showIndentGuide: true
+        gutterViewSettings:
+          showLineNumbers: true
+      python:
+        editorSettings:
+          tabLength: 2
+        editorViewSettings:
+          showInvisibles: true
+          softWrap: false
+          showIndentGuide: true
+        gutterViewSettings:
+          showLineNumbers: true
+  "release-notes":
+    viewedVersion: "0.94.0"
+  metrics:
+    userId: "36881f89c703f50fa973f66ad1c602dbe0578d7a"
+  "tree-view":
+    hideIgnoredNames: true
+  "atom-beautify": {}
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".python.text.traceback":
+  editor:
+    tabLength: 4

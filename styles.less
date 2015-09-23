@@ -1,0 +1,75 @@
+body, html {
+  // 全体のフォントの設定
+  font-family: 'Ricty';
+}
+
+.tree-view {
+  ol.entries.list-tree li {
+    // ファイルツリーのフォントサイズが大きすぎるので変更
+    font-size: 8pt;
+
+    span.icon:before {
+      // フォルダ・ファイルアイコンは8ptだとつぶれるので 10pt に
+      font-size: 10pt;
+    }
+  }
+}
+
+.vertical {
+  // パネルを分割するとアクティブになっているパネルがわかりにくいので、非アクティブのパネルは透過
+  .pane {
+    opacity:0.40;
+
+    &.active {
+      opacity: 1.0;
+    }
+  }
+
+  // パネルの境界がわかりにくいのでborderの色を変更
+  .panes .pane-row > *,
+  .panes .pane-column > * {
+    border-right: 1px solid rgba(150, 150, 150, 0.2);
+  }
+}
+
+.atom-text-editor {
+  .editor {
+    word-wrap: break-word;
+  }
+  .selection .region{
+    background-color: yellow; /* 文字選択時に背景を黄色に */
+    opacity: 0.3;             /* 透明度を設定 */
+  }
+  .line.cursor-line {
+    // background: #1F2224;
+  background-image: linear-gradient(
+    to-right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, .8) 100%);
+
+  }
+  .editor.is-focused .cursor.blink-off {
+    visibility: visible;
+  }
+
+  .cursor {
+    margin-left: -1px;
+    border-radius: 2px;
+    padding: 1px;
+    border-left: 1px;
+    background: rgba(244,100,122,0.6);
+    -webkit-transition: -webkit-transform, .02s;
+    border: none; //　横線を消す
+    background-color: rgba(255, 255, 255, .5) ; // 背景色を変更
+    border: 1px solid #fff; // 枠線を付けたい場合
+  }
+}
+
+
+.overlayer {
+  opacity: 0.20;
+  background-image: url();
+  background-repeat: no-repeat;
+  -moz-background-size:auto 100%;
+  background-size:auto 100%;
+}
