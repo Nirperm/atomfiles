@@ -31,3 +31,5 @@ cd .atom && bin/update-packages
 ## Key Bindings
 
 ## Installed
+* [color-picker](color-picker) - Adds a color picker.
+* [Linter](https://atom.io/packages/linter) - Enable displaying lint (code style) warnings
