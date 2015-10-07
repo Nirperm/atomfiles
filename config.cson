@@ -24,6 +24,8 @@
       "recent-files"
       "syntax-settings"
     ]
+  "linter-erb":
+    erbExecutablePath: "/Users/kurt/.rbenv/shims/erb"
   "linter-rubocop":
     executablePath: "/Users/kurt/.rbenv/shims/rubocop"
   "linter-flake8":
@@ -48,7 +50,7 @@
           showLineNumbers: true
       python:
         editorSettings:
-          tabLength: 2
+          tabLength: 4
         editorViewSettings:
           showInvisibles: true
           softWrap: false
@@ -61,10 +63,11 @@
     userId: "36881f89c703f50fa973f66ad1c602dbe0578d7a"
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "atom-beautify": {}
-".python.text.traceback":
+".js.regexp.source":
   editor:
     tabLength: 4
-".js.regexp.source":
+".python.text.traceback":
   editor:
     tabLength: 4
