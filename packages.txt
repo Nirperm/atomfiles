@@ -1,5 +1,4 @@
 atom-alignment@0.12.1
-atom-beautify@0.28.12
 atom-jshint@2.0.0
 autocomplete-paths@1.0.2
 color-picker@2.0.12
