@@ -1,6 +1,5 @@
 atom-alignment@0.12.1
 atom-jshint@2.0.0
-autocomplete-paths@1.0.2
 color-picker@2.0.12
 editorconfig@1.2.0
 emmet@2.3.12

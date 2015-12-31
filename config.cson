@@ -65,9 +65,11 @@
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
   "atom-beautify": {}
-".js.regexp.source":
+  whitespace:
+    ensureSingleTrailingNewline: false
+".python.text.traceback":
   editor:
     tabLength: 4
-".python.text.traceback":
+".js.regexp.source":
   editor:
     tabLength: 4
