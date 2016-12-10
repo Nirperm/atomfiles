@@ -1,75 +1,77 @@
 "*":
-  editor:
-    preferredLineLength: 100
-    fontFamily: "Ricty Regular"
-    showInvisibles: true
-    showIndentGuide: true
-    invisibles: {}
-    fontSize: 21
-  linter:
-    ignoredLinterErrors: [
-      "rubocop"
-    ]
-  "exception-reporting":
-    userId: "fc4760d0-597d-df98-4b64-e02bfcc8533a"
-  welcome:
-    showOnStartup: false
+  "atom-beautify": {}
   core:
-    themes: [
-      "atom-dark-ui"
-      "monokai"
-    ]
     disabledPackages: [
       "atom-color-highlight"
       "recent-files"
       "syntax-settings"
     ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 20
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "fc4760d0-597d-df98-4b64-e02bfcc8533a"
+  linter:
+    ignoredLinterErrors: [
+      "rubocop"
+    ]
   "linter-erb":
     erbExecutablePath: "/Users/kurt/.rbenv/shims/erb"
-  "linter-rubocop":
-    executablePath: "/Users/kurt/.rbenv/shims/rubocop"
   "linter-flake8":
     executablePath: "/Users/kurt/.pyenv/shims/flake8"
+  "linter-pep8":
+    pep8ExecutablePath: "/Users/kurt/.pyenv/shims/pep8"
   "linter-pyflakes":
     executablePath: "/Users/kurt/.pyenv/shims/pyflakes"
+  "linter-rubocop":
+    command: "/Users/kurt/.rbenv/shims/rubocop"
+  "linter-scss-lint":
+    disableWhenNoConfigFileInPath: false
+    executablePath: "/Users/kurt/.rbenv/shims/scss-lint"
+  metrics:
+    userId: "36881f89c703f50fa973f66ad1c602dbe0578d7a"
   pep8:
     PEP8Path: "/Users/kurt/.pyenv/shims/pep8"
     ignoreErrors: []
-  "linter-pep8":
-    pep8ExecutablePath: "/Users/kurt/.pyenv/shims/pep8"
+  "release-notes":
+    viewedVersion: "0.94.0"
   "syntax-settings":
     source:
-      ruby:
-        editorSettings:
-          tabLength: 2
-        editorViewSettings:
-          showInvisibles: true
-          softWrap: false
-          showIndentGuide: true
-        gutterViewSettings:
-          showLineNumbers: true
       python:
         editorSettings:
           tabLength: 4
         editorViewSettings:
+          showIndentGuide: true
           showInvisibles: true
           softWrap: false
-          showIndentGuide: true
         gutterViewSettings:
           showLineNumbers: true
-  "release-notes":
-    viewedVersion: "0.94.0"
-  metrics:
-    userId: "36881f89c703f50fa973f66ad1c602dbe0578d7a"
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
-  "atom-beautify": {}
+      ruby:
+        editorSettings:
+          tabLength: 2
+        editorViewSettings:
+          showIndentGuide: true
+          showInvisibles: true
+          softWrap: false
+        gutterViewSettings:
+          showLineNumbers: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
-".python.text.traceback":
+".js.regexp.source":
   editor:
     tabLength: 4
-".js.regexp.source":
+".python.text.traceback":
   editor:
     tabLength: 4
