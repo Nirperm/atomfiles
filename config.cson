@@ -5,6 +5,7 @@
       "atom-color-highlight"
       "recent-files"
       "syntax-settings"
+      "atom-jshint"
     ]
     excludeVcsIgnoredPaths: false
     telemetryConsent: "limited"
@@ -37,6 +38,8 @@
   "linter-scss-lint":
     disableWhenNoConfigFileInPath: false
     executablePath: "/Users/kurt/.rbenv/shims/scss-lint"
+  "linter-ui-default":
+    panelHeight: 81
   metrics:
     userId: "36881f89c703f50fa973f66ad1c602dbe0578d7a"
   pep8:
